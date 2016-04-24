@@ -1,0 +1,50 @@
+*{margin:0; padding:0; text-decoration:none; list-style:none; font-family:微软雅黑;}
+.html{font-size:20px;}
+@font-face {
+	font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.mulu{
+    font-family:"iconfont" !important;
+    font-size:1.5rem;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#38c6ae;
+}
+.box .tit{width:16rem; height:2.35rem; background:#262626; line-height:1.85rem; padding:0  0.4rem; box-sizing:border-box; border-bottom:0.01rem; solid #38c6ae;}
+.box .tit a{color:#fff; font-size:1rem; margin:0 3rem;}
+.box .tit img{width:1.45rem; height:1.15rem; float:right; margin-top:0.5rem;}
+.box .login{width:16rem; height:2.125rem; background:#fafafa; color:#909090; font-size:0.8rem;}
+.box .login .log{width:8rem; height:2.075rem; padding-left:1.45rem; padding-top:0.45rem; box-sizing:border-box; float:left;}
+.box .login .log img{width:1.475rem; height:1.475rem; vertical-align:middle; float:left;}
+.box .login .log span{border-right:0.05rem solid #c4c4c4; display:block; width:4.6rem; height:1.2rem; float:left; line-height:1.2rem; padding-top:0.15rem; margin-left:0.4rem;}
+.box .login .reg{width:8rem; height:2.075rem; padding:0.45rem 0.6rem; float:right; box-sizing:border-box;}
+.box .login .reg img{width:1.475rem; height:1.475rem; visibility:middle; float:left;}
+.box .login .reg span{display:block; width:4.6rem; height:1.2rem; float:left; line-height:1.2rem; padding-top:0.15rem; margin-left:0.4rem;}
+.box .banner{position:relative;}
+.box .banner img{width:16rem; height:7.8rem; display:block;}
+.box .banner p{width:16rem; height:1.85rem; background:rgba(0,0,0,0.1); color:#fff; line-height:1.85rem; text-align:center; font-size:0.8rem; position:absolute; left:0; bottom:0;}
+.cont ul{width:16rem; height:14.4rem; padding:0 0.375rem; border-bottom:0.125rem solid #57c0af; box-sizing:border-box;}
+.cont ul li{width:15.25rem; height:2rem; line-height:2rem; font-size:#3d3d3d; border-bottom:0.025rem solid #efefef; font-size:0.8rem; padding-left:0.375rem; color:#3d3d3d;}
+.cont ul li:last-child{border-bottom:none;}
+.hot_ask{width:16rem; height:2.05rem; background:#f8f8f8; line-height:2.05rem; border-bottom:0.025rem; box-sizing:border-box;  padding:0 0.75rem;}
+.hot_ask h2{color:#010101; font-size:0.8rem; font-weight:normal; float:left;}
+.hot_ask img{width:1.475rem; height:1.475rem; float:right; padding-top:0.25rem;}
+.science .scie_tit{width:16rem; height:2.1rem; border-bottom:0.025rem solid #ececec; box-sizing:border-box; line-height:2.1rem;}
+.science .scie_tit p{width:3.1rem; height:2.1rem; float:left; text-align:center; font-size:0.8rem; box-sizing:border-box;}
+.science .scie_tit p.scie_tit_cur{border-bottom:0.1rem solid #d43553;}
+.science .scie_con{width:16rem; height:6.625rem; padding:0 0.75rem; box-sizing:border-box;}
+.science .scie_con h2{font-size:0.8rem; color:#3d3d3d; font-weight:normal; line-height:2rem;}
+.science .scie_con .cont img{display:block; float:left; width:5.15rem; height:3.75rem;}
+.science .scie_con .cont p{float:left; font-size:0.65rem; color:#999; line-height:1.3rem; width:8.4rem; margin-left:0.7rem;}
+.science .scie_content{width:16rem; padding:0 0.4rem; box-sizing:border-box; font-size:0.8rem; color:#3d3d3d;}
+.science .scie_content ul{border-bottom:0.1rem solid #58c1b0; }
+.science .scie_content ul.no_bor{border-bottom:none;}
+.science .scie_content ul li{border-top:0.02rem solid #ebebeb; line-height:1.85rem; padding:0 0.375rem;}
+.box .back{width:16rem; height:3.15rem; border-top:0.02rem solid #e4e4e4; border-bottom:0.1rem solid #4dcaa8; background:#fafafa; line-height:3.15rem; text-align:center; font-size:0.8rem; color:#3d3d3d;}
+.box .back img{width:1.45rem; height:1.45rem; vertical-align:middle;}
